@@ -1,31 +1,47 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: tool-bar
+repo: toolbar-status
+user-agent: toolbar-status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: Toolbar API Health
+    slug: toolbar-api-health
+    url: https://www.toolbar.no/api/health
+    type: globalping
+    location: World
+    maxResponseTime: 5000
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
+
+  - name: Toolbar Homepage
+    slug: toolbar-homepage
+    url: https://www.toolbar.no/
+    type: globalping
+    location: World
+    maxResponseTime: 5000
+
+  - name: Toolbar Apex Redirect
+    slug: toolbar-apex-redirect
+    url: https://toolbar.no/
+    maxResponseTime: 5000
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.toolbar.no
+  logoUrl: https://www.toolbar.no/toolbar-logo.png
+  name: Toolbar Status
+  introTitle: "Toolbar Status"
+  introMessage: Live availability for Toolbar production services.
   navbar:
     - title: Status
       href: /
+    - title: App
+      href: https://www.toolbar.no/
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: https://github.com/tool-bar/toolbar-status
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+workflowSchedule:
+  uptime: "*/5 * * * *"
+  responseTime: "7 23 * * *"
+  graphs: "17 0 * * *"
+  summary: "37 0 * * *"
+  staticSite: "27 1 * * *"
+  updateTemplate: "47 0 * * *"
+  updates: "7 3 * * *"
