@@ -4,19 +4,19 @@
     "url": "https://www.toolbar.no/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/www.toolbar.no.ico",
     "slug": "toolbar-api-health",
-    "status": "down",
-    "uptime": "60.42%",
-    "uptimeDay": "60.42%",
-    "uptimeWeek": "60.42%",
-    "uptimeMonth": "60.42%",
-    "uptimeYear": "60.42%",
-    "time": 82,
-    "timeDay": 82,
-    "timeWeek": 82,
-    "timeMonth": 82,
-    "timeYear": 82,
+    "status": "up",
+    "uptime": "1.31%",
+    "uptimeDay": "1.31%",
+    "uptimeWeek": "1.31%",
+    "uptimeMonth": "1.31%",
+    "uptimeYear": "1.31%",
+    "time": 340,
+    "timeDay": 340,
+    "timeWeek": 340,
+    "timeMonth": 340,
+    "timeYear": 340,
     "dailyMinutesDown": {
-      "2026-06-28": 0
+      "2026-06-28": 26
     }
   },
   {
