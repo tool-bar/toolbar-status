@@ -5,16 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/www.toolbar.no.ico",
     "slug": "toolbar-api-health",
     "status": "up",
-    "uptime": "99.78%",
+    "uptime": "99.81%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.78%",
-    "uptimeYear": "99.78%",
-    "time": 232,
-    "timeDay": 167,
-    "timeWeek": 210,
-    "timeMonth": 232,
-    "timeYear": 232,
+    "uptimeMonth": "99.81%",
+    "uptimeYear": "99.81%",
+    "time": 221,
+    "timeDay": 107,
+    "timeWeek": 188,
+    "timeMonth": 221,
+    "timeYear": 221,
     "dailyMinutesDown": {
       "2026-06-28": 26
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 269,
-    "timeDay": 163,
+    "time": 256,
+    "timeDay": 124,
     "timeWeek": 314,
-    "timeMonth": 269,
-    "timeYear": 269,
+    "timeMonth": 256,
+    "timeYear": 256,
     "dailyMinutesDown": {}
   },
   {
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1328,
-    "timeDay": 1259,
-    "timeWeek": 1339,
-    "timeMonth": 1328,
-    "timeYear": 1328,
+    "time": 1299,
+    "timeDay": 1007,
+    "timeWeek": 1311,
+    "timeMonth": 1299,
+    "timeYear": 1299,
     "dailyMinutesDown": {}
   }
 ]
