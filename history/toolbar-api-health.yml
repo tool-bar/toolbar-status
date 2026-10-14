@@ -1,7 +1,7 @@
 url: https://www.toolbar.no/api/health
-status: up
-code: 200
-responseTime: 477
-lastUpdated: 2026-10-13T23:17:41.593Z
+status: down
+code: 402
+responseTime: 40
+lastUpdated: 2026-10-14T07:12:44.932Z
 startTime: 2026-06-28T17:05:52.752Z
 generator: Upptime <https://github.com/upptime/upptime>
